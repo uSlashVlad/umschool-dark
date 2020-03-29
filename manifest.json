@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Umschool dark",
+    "version": "1.0.0",
+    "description": "Turns Umschool website into dark theme",
+    "icons": {
+        "32": "icons/32.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://new.umschool.net/*"
+            ],
+            "run_at": "document_start",
+            "css": [
+                "dark.css"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+body {
+    background: #212121;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: inherit;
+}
+
+.exercise-item {
+    background: #2b2b2b !important;
+}
+
+.m-scrollbar {
+    background: none;
+}
+
+.link-w-icon, .left-menu-container .left-menu-masterClasses li a, .left-menu-container .left-menu-masterClasses li a .author, .sub-title, .lessons .lessons-item .hw-status a, .lessons .lessons-title p, .secondary, .homework-exercise .title .checking {
+    color: #c2c2c2 !important;
+}
+
+.link-w-icon:hover, .timetable-link, .form-container label {
+    color: #cfcfcf;
+}
+
+.content-section .content-container .content, header {
+    background: #262626;
+}
+
+.homeworks .homework-item .homework-item__text .info .secondary, .switcher-container label {
+    color: #c2c2c2;
+}
+
+.task-title, .homework-exercise .exercise-item .exercise-title .number, .homework-exercise .exercise-item .text-area .text-area__heading, .secondary-text, .popover .popover-body .popover-menu ul li a, .option {
+    color: white;
+}
+
+.form-control, .form-control:focus, .form-container input[type="text"], .form-container input[type="password"], .form-container input[type="email"], .form-container textarea, .custom_input {
+    color: white;
+    background: #212121;
+}
+
+.nav-level {
+    color: white;
+    background: #ba830d;
+}
+
+.arrow, .mr-1, .mx-1, .link-w-icon .icon-container img, .op-03, img.fr-dii {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.select2-container--default .select2-selection--single, .select2-container .select2-selection--single .select2-selection__rendered, .select2-dropdown, .select2-container--default .select2-results__option[aria-selected="true"] {
+    color: white;
+    background: #2b2b2b;
+}
+
+.out_of_range {
+    background: #212121;
+}
+
+.timetable_day {
+    background: #2b2b2b;
+}
+
+.day-webs-popover, .popover .popover-body .popover-menu {
+    background: #2b2b2b;
+}
