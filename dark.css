@@ -1,10 +1,10 @@
 body {
-    background: #212121;
-    color: white;
+    background: #212121 !important;
+    color: white !important;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-    color: inherit;
+    color: inherit !important;
 }
 
 .exercise-item, .modal-content {
@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .m-scrollbar {
-    background: none;
+    background: none !important;
 }
 
 .link-w-icon, .left-menu-container .left-menu-masterClasses li a, .left-menu-container .left-menu-masterClasses li a .author, .sub-title, .lessons .lessons-item .hw-status a, .lessons .lessons-title p, .secondary, .homework-exercise .title .checking {
@@ -20,53 +20,53 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .link-w-icon:hover, .timetable-link, .form-container label, .homeworks .homework-item .homework-item__grad .checking {
-    color: #e4e4e4;
+    color: #e4e4e4 !important;
 }
 
 .content-section .content-container .content, header, .fr-command.fr-btn + .fr-dropdown-menu .fr-dropdown-wrapper .fr-dropdown-content ul.fr-dropdown-list li a {
-    background: #262626;
+    background: #262626 !important;
 }
 
 .homeworks .homework-item .homework-item__text .info .secondary, .switcher-container label {
-    color: #c2c2c2;
+    color: #c2c2c2 !important;
 }
 
 .task-title, .homework-exercise .exercise-item .exercise-title .number, .homework-exercise .exercise-item .text-area .text-area__heading, .secondary-text, .popover .popover-body .popover-menu ul li a, .option, .fr-box.fr-basic .fr-element, ::after, ::before, .homework-exercise .exercise-item .exercise-title .exercise-text, .fr-popup .fr-input-line input[type="text"], .fr-popup .fr-input-line textarea, .homework-exercise .exercise-item .exercise-title .exercise-text p, .homework-exercise .exercise-item .answer-variants label {
-    color: white;
+    color: white !important;
 }
 
 .form-control, .form-control:focus, .form-container input[type="text"], .form-container input[type="password"], .form-container input[type="email"], .form-container textarea, .custom_input, .fr-box.fr-basic .fr-wrapper, .fr-toolbar, .fr-command.fr-btn + .fr-dropdown-menu .fr-dropdown-wrapper, .fr-popup,.fr-popup .fr-input-line input + label, .fr-popup .fr-input-line textarea + label {
-    color: white;
-    background: #212121;
+    color: white !important;
+    background: #212121 !important;
 }
 
 .nav-level {
-    color: white;
-    background: #ba830d;
+    color: white !important;
+    background: #ba830d !important;
 }
 
 .arrow, .mr-1, .mx-1, .link-w-icon .icon-container img, .op-03, img.fr-dii, .fr-view img.fr-dib {
-    -webkit-filter: invert(1);
-    filter: invert(1);
+    -webkit-filter: invert(1) !important;
+    filter: invert(1) !important;
 }
 
 .select2-container--default .select2-selection--single, .select2-container .select2-selection--single .select2-selection__rendered, .select2-dropdown, .select2-container--default .select2-results__option[aria-selected="true"], .form-control:disabled, .form-control[readonly] {
-    color: white;
-    background: #2b2b2b;
+    color: white !important;
+    background: #2b2b2b !important;
 }
 
 .out_of_range {
-    background: #212121;
+    background: #212121 !important;
 }
 
 .timetable_day {
-    background: #2b2b2b;
+    background: #2b2b2b !important;
 }
 
 .day-webs-popover, .popover .popover-body .popover-menu {
-    background: #2b2b2b;
+    background: #2b2b2b !important;
 }
 
 pre {
-    color: #a5a5a5;
+    color: #a5a5a5 !important;
 }
